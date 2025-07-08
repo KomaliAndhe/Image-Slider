@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Slider</title>
+   <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="dog1.jpg" alt="a Dog" class="slide active" width="900px" height="400px"> 
+            <img src="cat1.jpeg" alt="a Dog" class="slide" width="400px" height="270px">
+            <img src="dog2.jpg" alt="a Dog" class="slide" width="400px" height="270px">
+            <img src="cat2.jpg" alt="a Dog" class="slide" width="400px" height="270px">
+            <img src="lion.jpg" alt="a Dog" class="slide" width="400px" height="270px">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <script src="image.js"></script>
+</body>
+</html>
